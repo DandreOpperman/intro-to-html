@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Monkey stats</title>
+<link class="link" rel="stylesheet" href="styleSheetForGridMonkey.css">
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: Monkey1; }
+.item3 { grid-area: monkey1pic; }
+.item4 { grid-area: Monkey2; }
+.item5 { grid-area: monkey2pic; }
+.item6 { grid-area: Monkey3; }
+.item7 { grid-area: monkey3pic; }
+.item8 { grid-area: footer; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'Monkey1 Monkey1 Monkey1 Monkey1 Monkey1 monkey1pic'
+    'Monkey2 Monkey2 Monkey2 Monkey2 Monkey2 monkey2pic'
+    'Monkey3 Monkey3 Monkey3 Monkey3 Monkey3 monkey3pic'
+    'footer footer footer footer footer footer';
+  gap: 10px;
+  background-color: #a9ae93;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(219, 192, 192, 0.8);
+  text-align: auto;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="item1">
+    <h1 class="heading">Potent facts about Primates</h1>
+    <p>Before you lies a cornucopia of powerful and intensely inspiring facts about chimps, apes, etc.</p>
+    <p>Use and share this information as you wish, but please, please treat this information with the gravity that it deserves, it may stand you in good stead for the future.</p>
+    <q>skip to ape</q>
+    <a href="#Orangutan">Orangutan</a>
+    <a href="#snubnosed">Golden snub-nosed Monkey</a>
+    <a href="#chimp">Chimpanzee</a>  
+  </div>
+  <div class="item2">
+    <h2 class="heading" id="Orangutan"> Orangutan</h2>
+    <p> There are many things that you need to know about the Orangutan, they are fast and cunning and you would be wise not to underestimate them. Although many look cute, this is a facade that masks a primal and ominous power. Orangutans have been known to imitate human speech and bribe zoo visitors with cigarettes, please do not fall for their wicked schemes.</p><br></br>
+    <h4>Top skills</h4>
+    <ol class="ordList">
+        <li>Curiosity</li>
+        <li>Tool use</li>
+        <li>Calculated reciprocity</li>
+    </ol><br></br>
+    <h4>Stats</h4>
+    <ul class="unOrdList">
+        <li>Strength: 7/10</li>
+        <li>Dexterity: 8/10</li>
+        <li>Constitution: 7/10</li>
+        <li>Intelect: 9/10</li>
+        <li>Wisdom: 10/10</li>
+        <li>Charisma: 7/10</li>
+    </ul> <br></br>
+    <h4>Special ability</h4>
+    <p>Human voice imitation</p>
+    <a class="link" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4287529/" target="_blank">Read more about it here</a> <br></br>
+    <a class="link" href="https://www.youtube.com/watch?v=h6kiA3KCf5k" target="_parent">Hear an Orangutan speak if you dare!</a>
+  </div>  
+  <div class="item3">
+    <img class="pic" src="./baby orangutan.jpg" alt="a juvenile orangutan looks toward you from the screen" style="width:600px;height:400px;">
+  </div>
+  <div class="item4">
+    <h2 class="heading" id="snubnosed"> Golden snub-nosed Monkey</h2>
+    <p> To try and capture the vastness of the golden snub-nosed monkey is truly an exercise in futility. This old world Colobinae is formidable, resourceful and aesthetically robust. </p><br></br>
+    <h4>Top Skills</h4>
+    <ol class="ordList">
+        <li>Resourceful eater</li>
+        <li>Dopey face</li>
+    </ol><br></br>
+    <h4>Stats</h4>
+    <ul class="unOrdList">
+        <li>Strength: 5/10</li>
+        <li>Dexterity: 7/10</li>
+        <li>Constitution: 6/10</li>
+        <li>Intelect: 5/10</li>
+        <li>Wisdom: 2/10</li>
+        <li>Charisma: 10/10</li>
+    </ul> <br></br>
+    <h4>Special ability</h4>
+    <h5>Ventriloquism</h5>
+    <p>For a highly vocal species, golden snub-nosed monkeys have a curious aspect to their communications: they can vocalize without moving their bodies or face, much like a skilled ventriloquist.</p>
+  </div>  
+  <div class="item5">
+    <img class="pic" src="./golden snub nose.jpg" alt="two golden snubnosed monkeys sit posed against a black background" style="width:600px;height:400px;">
+  </div>
+  <div class="item6">
+    <h2 class="heading" id="chimp"> Chimpanzee</h2>
+    <p> Beware the epitome of nature's vitality. Brutal in its simplicity, dynamic in its execution. the last thing you will see if you are a termite, a ripe fruit or anything else in the wrong place, at the wrong time. </p><br></br>
+    <h4>Top Skills</h4>
+    <ol class="ordList">
+        <li>Strength</li>
+        <li>Collaboration</li>
+        <li>Resilience</li>
+
+    </ol><br></br>
+    <h4>Stats</h4>
+    <ul class="unOrdList">
+        <li>Strength: 10/10</li>
+        <li>Dexterity: 9/10</li>
+        <li>Constitution: 8/10</li>
+        <li>Intelect: 8/10</li>
+        <li>Wisdom: 7/10</li>
+        <li>Charisma: 8/10</li>
+    </ul> <br></br>
+    <h4>Special ability</h4>
+    <h5>Dynamic group hunting</h5>
+    <p>During a group hunt, chimpanzee in hunting groups have been known to take on a specific role for the duration of the hunt. "Drivers" serve to keep the prey running in a certain direction and follow them without attempting to make a catch. "Blockers" are stationed at the bottom of the trees and climb up to block prey that takes off in a different direction. "Chasers" move quickly and try to make a catch. Finally, "ambushers" hide and rush out when a monkey nears.</p>
+    <a class="link" href="https://pubmed.ncbi.nlm.nih.gov/26192594/" target="_blank">read more about it in this study</a>
+  </div>  
+  <div class="item7">
+    <img class="pic" src="./chimp.jpg" alt="a squat, muscled elderly chimp kneals in a background of grass" style="width:600px;height:400px;">
+  </div>
+  <div class="item8">
+    Look on nature's works, ye Mighty, and despair!
+    <br></br>
+    Webpage created by Dandre
+  </div>
+</div>
+
+</body>
+</html>
